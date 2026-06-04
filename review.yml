@@ -1,0 +1,19 @@
+name: DataVic Victoria
+description: DataVic Victoria CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/discover-data-vic-gov-au/refs/heads/main/review.yml
+created: '2026-06-04'
+modified: '2026-06-04'
+reviews:
+  - date: '2026-06-04'
+    rating: 4
+    summary: >-
+      DataVic Victoria runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response reporting approximately 5,585 datasets.
+      Because it runs CKAN, the full standard action/search API surface is available and consistent with all other CKAN portals.
+    endpoints:
+      - url: https://discover.data.vic.gov.au/api/3/action/package_search?rows=0
+        status: 200
+        note: Live CKAN API response verified during inventory probe.
+      - url: https://discover.data.vic.gov.au
+        status: 200
+        note: Portal home.
