@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://discover.data.vic.gov.au/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/discover-data-vic-gov-au-domain-security.yml
   - type: Website
     url: https://discover.data.vic.gov.au
   - type: Documentation
